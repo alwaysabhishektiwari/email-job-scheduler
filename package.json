@@ -1,0 +1,34 @@
+{
+  "name": "email-job-scheduler",
+  "version": "1.0.0",
+  "description": "Owner:\r alwaysabhishektiwari",
+  "main": "index.js",
+  "scripts": {
+  "start": "node server/server.js",
+  "dev": "node --watch server/server.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alwaysabhishektiwari/email-job-scheduler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/alwaysabhishektiwari/email-job-scheduler/issues"
+  },
+  "homepage": "https://github.com/alwaysabhishektiwari/email-job-scheduler#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "bullmq": "^6.3.4",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.7.0",
+    "ioredis": "^6.0.0",
+    "jsonwebtoken": "^9.0.3",
+    "mysql2": "^3.24.3",
+    "nodemailer": "^9.1.1"
+  }
+}
